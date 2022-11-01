@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="page">
+			<div class="page__block">
+				<div class="page__form form">
+					<div class="form__container">
+						<div class="form__img-container">
+							<img src="img/illustration.svg" alt="illustration">
+						</div>
+						<div class="form__contact-base contact-base">
+							<div class="contact-base__container">
+								<div class="contact-base__text-container">
+									<div class="contact-base__subtitle">
+										<h6>
+											ANY QUESTIONS?
+										</h6>
+									</div>
+									<div class="contact-base__title">
+										<h1>
+											Drop us a line
+										</h1>
+									</div>
+								</div>
+
+								<form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="base">
+									<div class="contact-base__item item">
+										<div class="item__line">
+											<label class="item__label" for="first-name">First Name*</label>
+											<input required class="item__input" id="first-name" autocomplete="on"
+												placeholder="Your first name" name="first-name-01" type="text">
+										</div>
+										<div class="item__line">
+											<label class="item__label" for="last-name">Last Name*</label>
+											<input required class="item__input" id="last-name" autocomplete="on"
+												placeholder="Your last name" name="last-name-01" type="text">
+										</div>
+										<div class="item__line">
+											<label class="item__label" for="email">Email*</label>
+											<input required class="item__input" id="email" autocomplete="on"
+												placeholder="Your working email" name="email-01" type="email">
+										</div>
+										<div class="item__line">
+											<label class="item__label" for="phone">Phone</label>
+											<input class="item__input" id="phone" autocomplete="off"
+												placeholder="Your working phone" name="phone-01" type="tel">
+										</div>
+										<div class="item__line item__line--message">
+											<label class="item__label" for="message-label">Message*</label>
+											<textarea required name="message" id="message-label" autocomplete="on"
+												class="message-01" placeholder="Your message"></textarea>
+										</div>
+									</div>
+
+									<div class="contact-base__button-main button-main">
+										<div class="button-main__container">
+											<div class="button-main__button-1">
+												<p>
+													<input type="radio" id="test1" name="radio-group" checked>
+													<label for="test1">Female</label>
+												</p>
+												<p>
+													<input type="radio" id="test2" name="radio-group">
+													<label for="test2">Male</label>
+												</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="contact-base__send-message  send-message">
+										<input required id="check" class="send-message__input" type="checkbox">
+										<label for="check" class="send-message__label">
+											<span class="send-message__text">
+												I agree to
+												receive communications from
+												Createx
+												Online School
+											</span>
+										</label>
+										<button type="submit" class="send-message__button"> Send message</button>
+									</div>
+								</form>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+
+</html>
